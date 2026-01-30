@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-blue{
+  background-color:#2f84c5 ;
+}
+.bg-orange{
+  background-color: #fb8d1e;
+}
+.active-link.active {
+ background-color: #2f84c5;
+
+ color: white;
+ font-weight: bold;
+
+}
+.icon-img {
+  width: 30px;  /* Adjust the size */
+  height: 25px;
+  border-radius: 50%;  /* Optional: makes it circular */
+  object-fit: cover;   /* Ensures the image fits the container without distortion */
+  filter: grayscale(100%) brightness(0) contrast(100%); /* Makes image black */
+  transition: transform 0.3s ease;  /* Smooth scale transition */
+}
+
+.icon-img:hover {
+  transform: scale(1.2);  /* Slightly enlarges the image on hover */
+}
+
